@@ -1,21 +1,15 @@
 {
-  "name": "angular-permission",
-  "version": "2.1.1",
-  "description": "Route permission and access control as simple as it can get",
+  "name": "angular-permission-kit",
+  "version": "1.0.1",
+  "description": "a kit for angular-permission, fork from angular-permission project, fix bug and support old version of angular",
   "author": {
-    "name": "Rafael Vidaurre",
-    "email": "narzerus@gmail.com"
+    "name": "zhzehong",
+    "email": "zhzehong8@gmail.com"
   },
-  "contributors": [
-    {
-      "name": "Blazej Krysiak",
-      "email": "blazej.krysiak@gmail.com"
-    }
-  ],
-  "main": "dist/angular-permission.js",
+  "main": "dist/angular-permission-kit.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Narzerus/angular-permission.git"
+    "url": "https://github.com/zhzehong/angular-permission-kit"
   },
   "keywords": [
     "angular",
@@ -25,11 +19,11 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Narzerus/angular-permission/issues"
+    "url": "https://github.com/zhzehong/angular-permission-kit/issues"
   },
-  "homepage": "http://www.rafaelvidaurre.com",
+  "homepage": "",
   "peerDependencies": {
-    "angular-ui-router": "^0.2.11"
+    "angular-ui-router": "^0.2.18"
   },
   "devDependencies": {
     "grunt": "^0.4.5",

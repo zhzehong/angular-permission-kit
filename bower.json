@@ -1,8 +1,7 @@
 {
   "name": "angular-permission-kit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "authors": ["zhzehong <zhzehong8@gmail.com>"],
-  "contributors": ["zhzehong <zhzehong8@gmail.com>"],
   "description": "a kit for angular-permission, fork from angular-permission project, fix bug and support old version of angular",
   "main": "dist/angular-permission.js",
   "keywords": [
