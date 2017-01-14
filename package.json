@@ -1,6 +1,6 @@
 {
   "name": "angular-permission-kit",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "a kit for angular-permission, fork from angular-permission project, fix bug and support old version of angular",
   "author": {
     "name": "zhzehong",
