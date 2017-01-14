@@ -1,0 +1,35 @@
+{
+  "name": "angular-permission-kit",
+  "version": "1.0.0",
+  "authors": ["zhzehong <zhzehong8@gmail.com>"],
+  "contributors": ["zhzehong <zhzehong8@gmail.com>"],
+  "description": "a kit for angular-permission, fork from angular-permission project, fix bug and support old version of angular",
+  "main": "dist/angular-permission.js",
+  "keywords": [
+    "angular",
+    "permissions",
+    "roles",
+    "route"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "config",
+    "test",
+    "src",
+    "Gruntfile.js",
+    ".jshintrc",
+    ".gitignore",
+    ".travis.yml"
+  ],
+  "devDependencies": {
+    "angular-mocks": "1.3.20"
+  },
+  "dependencies": {
+    "angular": "1.3.18",
+    "angular-ui-router": "0.2.18"
+  }
+}
