@@ -123,11 +123,12 @@
 
             return permissions.resolveRedirectState(rejectedPermission)
               .then(function (redirectStateName) {
-                $state.go(redirectStateName, toParams, {notify: false});
+                $state
+                  .go(redirectStateName, toParams, {notify: false})
+                  .then(function () {
+                    $rootScope.$broadcast('$stateChangeSuccess', toState, toParams, options);
+                  });
               })
-              .then(function () {
-                $rootScope.$broadcast('$stateChangeSuccess', toState, toParams, options);
-              });
           })
           .finally(function () {
             setStateAuthorizationStatus(false);
